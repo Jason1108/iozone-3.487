@@ -1267,7 +1267,7 @@ int pit_gettimeofday();
 #ifdef HAVE_ANSIC_C
 #if defined (HAVE_PREAD) && defined(_LARGEFILE64_SOURCE)
 ssize_t pwrite64(); 
-ssize_t pread64(); 
+//ssize_t pread64(); 
 #endif
 #if !defined(linux)
 char *getenv();
